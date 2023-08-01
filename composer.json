@@ -15,6 +15,15 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Daa\\Contact\\ContactServiceProvider"
+            ]
+        }
+    }
+
+
 
 }
